@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+}
+.header{
+    background-color: rgba(170, 62, 62, 0.603);
+    color:rgb(233, 219, 209);
+    font-weight: bold;
+    font-size: 150%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+div{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.Footer{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.main{
+display: flex;
+flex-direction: row;
+height: calc(100vh - 180px);
+padding: 0%;
+}
+.sideBar{
+background-color:  rgba(170, 62, 62, 0.603);
+width: 200px;
+}
+.cotent{
+flex: 1;
+}
+li{
+    color: rgb(233, 219, 209);
+}
+a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+}
